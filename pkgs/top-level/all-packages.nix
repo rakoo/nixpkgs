@@ -2066,6 +2066,8 @@ in
 
   http-prompt = callPackage ../tools/networking/http-prompt { };
 
+  httpfile = callPackage ../servers/httpfile { };
+
   httpie = callPackage ../tools/networking/httpie { };
 
   httping = callPackage ../tools/networking/httping {};
